@@ -1,0 +1,24 @@
+{
+  "name": "ch02",
+  "version": "1.0.0",
+  "description": "Chapter 2 of exercises from https://blog.risingstack.com/node-hero-npm-tutorial/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/Node_Hero_Tutorial.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "npm"
+  ],
+  "author": "Dave Kanter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raydot/Node_Hero_Tutorial/issues"
+  },
+  "homepage": "https://github.com/raydot/Node_Hero_Tutorial#readme"
+}

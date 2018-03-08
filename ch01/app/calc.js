@@ -39,8 +39,8 @@ var countedNames = names.reduce(function (allNames, name) {
 		allNames[name] = 1;
 	}
 	return allNames;
-}, {});
+}, {}); // {} "invokes" the function immediately
 
-console.log("countedNames: " + countedNames);
+console.log("countedNames: ", countedNames);
 
 module.exports.sum = sum

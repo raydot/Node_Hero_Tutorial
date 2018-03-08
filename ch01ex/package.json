@@ -1,0 +1,29 @@
+{
+  "name": "ch01ex",
+  "version": "1.0.0",
+  "description": "Using the readline module to get data from stdin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/Node_Hero_Tutorial.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "design",
+    "patterns"
+  ],
+  "author": "Dave Kanter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raydot/Node_Hero_Tutorial/issues"
+  },
+  "homepage": "https://github.com/raydot/Node_Hero_Tutorial#readme",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
