@@ -4,7 +4,9 @@
   "description": "Chapter 2 of exercises from https://blog.risingstack.com/node-hero-npm-tutorial/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "//" : "Can use custom scripts too!",
+    "your-custom-script": "echo npm"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/raydot/Node_Hero_Tutorial/issues"
   },
-  "homepage": "https://github.com/raydot/Node_Hero_Tutorial#readme"
+  "homepage": "https://github.com/raydot/Node_Hero_Tutorial#readme",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "//" : "Worth nothing NPM supports 'scoped dependencies.'",
+    "//" : "i. e. require('@myorg/mypackage')"
+  }
 }
